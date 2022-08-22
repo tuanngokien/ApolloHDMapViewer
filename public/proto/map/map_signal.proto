@@ -2,9 +2,9 @@ syntax = "proto2";
 
 package proto.hdmap;
 
-import "/proto/common/geometry.proto";
-import "/proto/map/map_geometry.proto";
-import "/proto/map/map_id.proto";
+import "../common/geometry.proto";
+import "./map_geometry.proto";
+import "./map_id.proto";
 
 message Subsignal {
   enum Type {

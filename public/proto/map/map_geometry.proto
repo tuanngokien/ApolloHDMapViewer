@@ -1,6 +1,6 @@
 syntax = "proto2";
 
-import "/proto/common/geometry.proto";
+import "../common/geometry.proto";
 
 package proto.hdmap;
 
