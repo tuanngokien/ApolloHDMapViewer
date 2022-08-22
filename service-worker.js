@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/ApolloHDMapViewer/precache-manifest.ba10a82cce4db5d6cca441ff60081020.js"
+  "/ApolloHDMapViewer/precache-manifest.fa8c7dbe4c150357abdd2f5b6b462699.js"
 );
 
 workbox.clientsClaim();

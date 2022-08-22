@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/ApolloHDMapViewer/static/js/runtime~main.80188437.js"
   },
   {
-    "revision": "0eba2a148c896d0f4a12b11787ff6e83",
+    "revision": "b04139a4831321d620650b2c4d28a865",
     "url": "/ApolloHDMapViewer/index.html"
   }
 ];
