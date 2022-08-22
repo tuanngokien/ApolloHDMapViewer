@@ -2,19 +2,19 @@ syntax = "proto2";
 
 package proto.hdmap;
 
-import "./proto/map/map_clear_area.proto";
-import "./proto/map/map_crosswalk.proto";
-import "./proto/map/map_junction.proto";
-import "./proto/map/map_lane.proto";
-import "./proto/map/map_overlap.proto";
-import "./proto/map/map_signal.proto";
-import "./proto/map/map_speed_bump.proto";
-import "./proto/map/map_stop_sign.proto";
-import "./proto/map/map_yield_sign.proto";
-import "./proto/map/map_road.proto";
-import "./proto/map/map_parking_space.proto";
-import "./proto/map/map_pnc_junction.proto";
-import "./proto/map/map_rsu.proto";
+import "./map_clear_area.proto";
+import "./map_crosswalk.proto";
+import "./map_junction.proto";
+import "./map_lane.proto";
+import "./map_overlap.proto";
+import "./map_signal.proto";
+import "./map_speed_bump.proto";
+import "./map_stop_sign.proto";
+import "./map_yield_sign.proto";
+import "./map_road.proto";
+import "./map_parking_space.proto";
+import "./map_pnc_junction.proto";
+import "./map_rsu.proto";
 
 // This message defines how we project the ellipsoidal Earth surface to a plane.
 message Projection {
