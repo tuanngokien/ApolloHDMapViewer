@@ -17,7 +17,7 @@ function App() {
 
   const onFileSelected = async (e) => {
     setHdMap(e.target.files[0]);
-    const root = await load("/proto/map/map.proto");
+    const root = await load("./proto/map/map.proto");
     const MapMessage = root.lookupType("proto.hdmap.Map");
     const reader = new FileReader();
     reader.onload = function (e) {
