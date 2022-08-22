@@ -2,8 +2,8 @@ syntax = "proto2";
 
 package proto.hdmap;
 
-import "/proto/map/map_id.proto";
-import "/proto/map/map_geometry.proto";
+import "./map_id.proto";
+import "./map_geometry.proto";
 
 // A yield indicates that each driver must prepare to stop if necessary to let a
 // driver on another approach proceed.

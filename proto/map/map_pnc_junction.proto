@@ -2,8 +2,8 @@ syntax = "proto2";
 
 package proto.hdmap;
 
-import "/proto/map/map_id.proto";
-import "/proto/map/map_geometry.proto";
+import "./map_id.proto";
+import "./map_geometry.proto";
 message Passage {
   optional Id id = 1;
 
